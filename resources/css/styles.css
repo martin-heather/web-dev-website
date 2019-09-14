@@ -71,7 +71,7 @@ body {
 /* REUSABLE COMPONENTS */
 /*---------------------------*/
 
-.row {
+/* .row {
   max-width: 1140px;
   margin: 0 auto;
   zoom: 1;
@@ -84,12 +84,16 @@ body {
 }
 .row:after {
   clear: both;
-}
+} */
 
 .center {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 section {
@@ -167,11 +171,19 @@ ul {
 
 /*--icons-------------*/
 
-.icon-top {
+.icon-top-left {
   font-size: 150%;
   display: block;
   color: #fff;
-  padding-left: 15px;
+  margin-left: 20px;
+}
+
+.icon-top-right {
+  visibility: hidden;
+  font-size: 150%;
+  display: block;
+  color: #fff;
+  margin-right: 20px;
 }
 
 .icon-big {
@@ -289,7 +301,7 @@ a:active {
 
 .section-splash img {
   width: 100%;
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 .headline {
@@ -314,10 +326,6 @@ a:active {
   color: #3ecccc;
 }
 
-.tagline {
-  /* float: left; */
-}
-
 #top-nav {
   position: fixed;
   z-index: 1;
@@ -325,7 +333,7 @@ a:active {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  width: 100%;
+  width: 100vw;
   background-color: #26292e;
   color: #fff;
   list-style: none;
@@ -333,9 +341,6 @@ a:active {
 
 #top-nav a {
   border-bottom: 0px;
-}
-
-.titles {
 }
 
 .top-title {
@@ -475,6 +480,8 @@ a:active {
 
 .section-skills > img {
   padding: 5px;
+  height: 70px;
+  width: auto;
 }
 
 /*---------------------------*/
@@ -564,6 +571,16 @@ a:active {
 .section-education > div {
 }
 
+.web-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.web-card-img {
+  float: right;
+}
+
 .education,
 .additional-education {
   margin-left: auto;
@@ -588,7 +605,8 @@ a:active {
   padding: 0 0 10px 10px;
 }
 
-.education span {
+.education span,
+.additional-education span {
   font-style: italic;
   font-weight: 700;
 }
@@ -636,6 +654,7 @@ footer {
 .social-links {
   list-style: none;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .footer-nav li,
@@ -773,6 +792,7 @@ a:active {
   /*---------------------------*/
 
   section {
+    width: 100%;
     padding-left: 200px;
   }
 
@@ -809,8 +829,8 @@ a:active {
 
   /*--icons-------------*/
 
-  .icon-top {
-    display: none;
+  .icon-top-left {
+    visibility: hidden;
   }
 
   /*--Buttons-------------*/
@@ -866,12 +886,21 @@ a:active {
   }
 
   /*---------------------------*/
-  /*PHILOSOPHY*/
+  /*ABOUT ME*/
   /*---------------------------*/
 
   /*---------------------------*/
   /*PORTFOLIO*/
   /*---------------------------*/
+
+    /*---------------------------*/
+  /*SKILLS*/
+  /*---------------------------*/
+
+  .section-skills > img {
+    height: 96px;
+    width: auto;
+  }
 
   /*---------------------------*/
   /*EXPERIENCE*/

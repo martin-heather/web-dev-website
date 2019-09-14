@@ -32,7 +32,7 @@ function inHouse() {
 
 function concordia() {
   document.getElementById('concordia').innerHTML =
-    '<img src="./resources/img/concordia.png" alt="Concordia University logo"><p><span>Concordia University</span></p><p>Since 2016, I have been studying French grammar, literature and composition part-time in the French Studies department and have a cumulative GPA of 4.0.</p>';
+    '<img src="./resources/img/concordia.png" alt="Concordia University logo"><p><span>Concordia University</span></p>Since 2016, I have been studying French grammar, literature and composition part-time in the French Studies department and have a cumulative GPA of 4.0.';
 }
 
 function ryerson() {
