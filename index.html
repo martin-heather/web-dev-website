@@ -29,17 +29,19 @@
     </head>
 												
     <body>
+
+		<a href="#main-content" class="skip-link">Skip to main content.</a>
 	
-		<div id="top-nav">
+		<nav id="top-nav">
 			<a onclick="toggleMenu()"><i class="icon-top-left ion-ios-menu"></i></a>
 			<div class="titles">
 			<div class="top-title">Heather Martin</div>
 			<div class="top-subtitle">Web Developer</div>
 			</div>
 			<div><i class="icon-top-right ion-ios-menu"></i></div>
-		</div>
+		</nav>
                 
-       	<div class="toc" id="toc">
+       	<nav class="toc" id="toc">
 			<a href="#top"><img src="./resources/img/logo.png" onclick="toggleMenu()" alt="HM logo" class="logo"></a>	
 
 			<side-nav>
@@ -52,12 +54,12 @@
 						<li><a href="#a-contact" onclick="toggleMenu()"><i class="icon-small ion-ios-mail"></i>Contact Me</a></a></li>
 				</ul>			
 			</side-nav>
-			<div class="footer-nav footer-toc">
+			<footer class="footer-nav footer-toc">
 				<p> &copy 2019 by Heather Martin.<br/>All rights reserved.</p>				
-			</div>
-		</div>
+			</foot>
+		</nav>
 
-		<div class="content">
+		<div class="main" id="main-content" tabindex="-1">
 
 		<section class="section-splash">
 			<div class="center">
@@ -74,7 +76,7 @@
 
 		<section class="section-about">
 			<div>				
-				<a name="a-about"><h2>About Me</h2></a> 
+				<a name="a-about"><h1>About Me</h1></a> 
 				<p class="long-copy">
 					A recent graduate from Concordia University's Front-End Web Development program, I'm looking for opportunities to use the coding skills I've learned so far and further expand my knowledge base. My first career was as an editor and proofreader of English, so my love of codes and syntax runs deep, and I'll be bringing the same eye for detail and respect for deadlines I developed in the publishing world to my future endeavours. <br/><br/>My knowledge of modern web development includes HTML, CSS, ES6 JavaScript, the React and Redux front-end libraries as well as Node.js and Express on the back end.
 				</p>
@@ -83,25 +85,25 @@
 	
 		<section class="section-portfolio">
 			<div>
-				<a name="a-portfolio"><h2>Portfolio</h2></a> 
+				<a name="a-portfolio"><h1>Portfolio</h1></a> 
 			</div>
 
 				<div class="project">
-					<h3>Alibay Marketplace</h3>
+					<h2>Alibay Marketplace</h2>
 					<div>
 						<div>
 							<p>A prototype of a full-stack book marketplace </p>
-							<p></i><a href="http://heathermartin.ca/alibay.html" target="_blank">Watch Demo Video</a></p>
+							<p></i><a href="http://heathermartin.ca/alibay.html" target="_blank">Watch the Alibay Demo Video</a></p>
 						</div>
 						<div>
 							<img src="./resources/img/alibay.jpg" alt="Alibay Marketplace screen capture">
 						</div>
 					</div>
-					<img class="small-logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" src="https://img.icons8.com/color/96/000000/javascript.png"><img class="small-logo" src="./resources/img/react.png"><img class="small-logo" src="./resources/img/redux96.png"><img class="small-logo" src="./resources/img/nodejs.png">
+					<img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="CSS 3 logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png"><img class="small-logo" alt="React logo" src="./resources/img/react.png"><img class="small-logo" alt="Redux logo" src="./resources/img/redux96.png"><img class="small-logo" alt="Node.js logo" src="./resources/img/nodejs.png">
 				</div>	
 
 				<div class="project">
-					<h3>Adventure Game</h3>
+					<h2>Adventure Game</h2>
 					<div>
 						<div>
 							<p>A desktop browser adventure game</p>
@@ -111,26 +113,49 @@
 						<img src="./resources/img/adventuregame.jpg" alt="Adventure Game screen capture">
 						</div>	
 					</div>
-					<img class="small-logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" src="https://img.icons8.com/color/96/000000/javascript.png">
+					<img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="CSS 3 logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png">
 				</div>		
 		</section>
 
 		<section class="section-skills">
 			<div>
-				<a name="a-skills"><h2>Skills</h2></a> 
+				<a name="a-skills"><h1>Skills</h1></a> 
 			</div>
-			<!--Format w. CSS figures & captions-->
-			<img src="https://img.icons8.com/color/96/000000/html-5.png"><img src="https://img.icons8.com/color/96/000000/css3.png"><img src="https://img.icons8.com/color/96/000000/javascript.png"><img src="./resources/img/react.png"><img src="./resources/img/redux96.png"><img src="./resources/img/express-nodejs.jpg">
+			<figure>
+				<img alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png">
+				<figcaption>HTML 5</figcaption>
+			</figure>
+			<figure>
+				<img alt="CSS 3 logo"src="https://img.icons8.com/color/96/000000/css3.png">
+				<figcaption>CSS 3</figcaption>
+			</figure>
+			<figure>
+				<img alt="JavaScript logo"src="https://img.icons8.com/color/96/000000/javascript.png">
+				<figcaption>JavaScript</figcaption>
+			</figure>
+			<figure>
+				<img alt="React logo logo"src="./resources/img/react.png">
+				<figcaption>React</figcaption>
+			</figure>
+			<figure>
+				<img alt="Redux logo" src="./resources/img/redux96.png">
+				<figcaption>Redux</figcaption>
+			</figure>
+			<figure>
+				<img alt="Combined Express and Node.js logo"src="./resources/img/express-nodejs.jpg">
+				<figcaption>Express and Node.js</figcaption>
+			</figure>
+			
 		</section>
 
 		<section class="section-experience">
 				<div class="center">
-					<a name="a-experience"><h2>Experience</h2></a>
+					<a name="a-experience"><h1>Experience</h1></a>
 				</div>
 							
 				<!-- <div>
 					<div class="experience center">	
-					<h3>Web Development</h3>
+					<h2>Web Development</h2>
 						<p>To date I have created:</p>
 							<ul>
 								<li>Websites for professionals</li>
@@ -142,30 +167,30 @@
 
 				<div>
 					<div class="experience additional-experience center">					
-					<h3>Freelance Editorial Services</h3>
+					<h2>Freelance Editorial Services</h2>
 					<p id="freelance" onclick="freelance()"><button class="btn-more">Tell me more.</button></p>									
 					</div>
 				</div>
 
 				<div>
 					<div class="experience additional-experience center">					
-					<h3>In-house Publishing</h3>
+					<h2>In-house Publishing</h2>
 					<p id="inHouse" onclick="inHouse()"><button class="btn-more">Tell me more.</button></p>
 					</div>
 				</div>
 
-				<p class="dark-section-text">Heather's full work history can be found on her <a href="https://www.linkedin.com/in/martinheather/" target="_blank">LinkedIn profile</a>.</p>
+				<p class="dark-section-text">Learn more about Heather's work history on her <a href="https://www.linkedin.com/in/martinheather/" id="dark-section-a" target="_blank">LinkedIn profile</a>.</p>
 		</section>
 
 		<section class="section-education">
 			<div class="center">
-				<a name="a-education"><h2>Education</h2></a>
+				<a name="a-education"><h1>Education</h1></a>
 			</div>
 							
 			<div>
 				<div class="education center">	
 					<div>
-						<div><h3>Diploma in Front-End Web Development</h3></div>
+						<div><h2>Diploma in Front-End Web Development</h2></div>
 						<div class="web-card">
 							<div>
 								<p><span>Concordia University (2019)</span></p>
@@ -186,46 +211,45 @@
 			</div>
 				
 			<div class="add-ed-container">
-				<div>
+
 					<div class="education additional-education center">					
-						<h3>Ongoing French-Language Studies</h3>							<p id="concordia" onclick="concordia()">
+						<h2>Ongoing French-Language Studies</h2>							<p id="concordia" onclick="concordia()">
 						<button class="btn-more">Tell me more.</button></p>
 					</div>
-				</div>
+
 	
-				<div>
+
 					<div class="education additional-education center">					
-						<h3>Certificate in Publishing</h3>
+						<h2>Certificate in Publishing</h2>
 						<p id="ryerson" onclick="ryerson()">
 						<button class="btn-more">Tell me more.</button></p>				
 					</div>
-				</div>
+
 	
-				<div>
+
 					<div class="education additional-education center">					
-						<h3>MA, English Language & Literature</h3>
+						<h2>MA, English Language & Literature</h2>
 						<p id="uvic" onclick="uvic()">
 						<button class="btn-more">Tell me more.</button></p>
 					</div>
-				</div>
-				<div>
+
 					<div class="education additional-education center">					
-						<h3>BA, Honours English</h3>
+						<h2>BA, Honours English</h2>
 						<p id="guelph" onclick="guelph()">
 						<button class="btn-more">Tell me more.</button></p>
 					</div>
-				</div>
+
 			</div>							
 		</section>
 
 		<section class="section-form">
 			<div>
-				<a name="a-contact"><h2>Contact Me</h2></a> 
+				<a name="a-contact"><h1>Contact Me</h1></a> 
 				<div class="center">
 				<ul class="social-links">
-					<li><a href="https://www.linkedin.com/in/martinheather/" target="_blank"><i class="icon-big ion-logo-linkedin"></i></a></li>
-					<li><a href="https://github.com/martin-heather" target="_blank"><i class="icon-big ion-logo-github"></i></a></li>
-					<li><a href="mailto:mail@heather-martin.com" target="_top"><i class="icon-big ion-ios-send"></i></a></li>
+					<li><a alt="LinkedIn icon" href="https://www.linkedin.com/in/martinheather/" target="_blank"><i class="icon-big ion-logo-linkedin"></i></a></li>
+					<li><a alt="GitHub icon" href="https://github.com/martin-heather" target="_blank"><i class="icon-big ion-logo-github"></i></a></li>
+					<li><a alt="Email icon" href="mailto:mail@heather-martin.com" target="_top"><i class="icon-big ion-ios-send"></i></a></li>
 				</ul>
 				</div>
 			</div>				

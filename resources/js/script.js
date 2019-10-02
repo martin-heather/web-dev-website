@@ -37,7 +37,7 @@ function concordia() {
 
 function ryerson() {
   document.getElementById('ryerson').innerHTML =
-    '<img src="./resources/img/ryerson.png" alt="Ryerson University logo"><p><span>Ryerson University</span></p>At Ryerson, I studied editing, digital publishing and book design. I was twice nominated for the Rosemary Shipton Award for Excellence in Book Editing.';
+    '<img src="./resources/img/ryerson.png" alt="Ryerson University logo"><p><span>Ryerson University</span></p>At Ryerson, I studied editing, digital publishing and book design among other topics. I was twice nominated for the Rosemary Shipton Award for Excellence in Book Editing.';
 }
 
 function uvic() {
@@ -47,5 +47,5 @@ function uvic() {
 
 function guelph() {
   document.getElementById('guelph').innerHTML =
-    '<img src="./resources/img/guelph.png" alt="University of Guelph logo"><p><span>University of Guelph</span></p>At UofG, I taught English usage and style at the university\'s Learning and Writing Centre as a student writing consultant.';
+    '<img src="./resources/img/guelph.png" alt="University of Guelph logo"><p><span>University of Guelph</span></p>While at UofG, I taught English usage and style at the university\'s Learning and Writing Centre as a student writing consultant.';
 }
