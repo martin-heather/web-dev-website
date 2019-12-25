@@ -149,7 +149,7 @@ h2 {
   font-weight: 400;
   font-size: 110%;
   margin-bottom: 15px;
-  color: #008888;
+  color: #006366;
 }
 
 /*--Paragraphs-------------*/
@@ -161,7 +161,7 @@ h2 {
 }
 
 .long-copy span {
-  color: #008888;
+  color: #006366;
 }
 
 .box p {
@@ -241,8 +241,8 @@ input[type='submit'] {
 .btn-full:link,
 .btn-full:visited,
 input[type='submit'] {
-  background-color: #008888;
-  border: 1px solid #008888;
+  background-color: #006366;
+  border: 1px solid #006366;
   color: #fff;
 }
 
@@ -274,9 +274,9 @@ input[type='submit']:active {
   float: right;
   background-color: rgba(76, 175, 79, 0);
   border: none;
-  color: #008888;
+  color: #006366;
   text-align: center;
-  text-decoration: #008888;
+  text-decoration: #006366;
   display: inline-block;
   font-size: 80%;
   cursor: pointer;
@@ -326,9 +326,6 @@ a:active {
   margin-top: 10%;
 }
 
-.headline {
-}
-
 .headline h1 span {
   font-weight: 600;
   font-size: 113%;
@@ -361,8 +358,29 @@ a:active {
   list-style: none;
 }
 
-#top-nav a {
-  border-bottom: 0px;
+.menu-btn {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  background: #26292e;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.menu-btn:hover {
+  background: #26292e;
+}
+
+.menu-btn:active {
+  transform: scale(0.99);
 }
 
 .top-title {
@@ -469,7 +487,7 @@ a:active {
 
 .project a:link,
 a:visited {
-  color: #008888;
+  color: #006366;
   text-decoration: none;
   padding-bottom: 1px;
   border-bottom: 1px solid #00c5c5;
@@ -498,6 +516,9 @@ a:active {
 
 .section-skills {
   text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-skills > img {
@@ -548,6 +569,10 @@ a:active {
   padding: 10px 0 10px 10px;
 }
 
+.experience-logo {
+  min-height: 96px;
+}
+
 .experience span {
   font-style: italic;
   font-weight: 700;
@@ -557,15 +582,12 @@ a:active {
 .additional-experience ul {
   color: #1e2125;
   padding-left: 40px;
-  float: left;
+  /* float: left; */
 }
 
 .experience {
   margin-bottom: 35px;
   max-width: 80%;
-}
-
-.additional-experience {
 }
 
 .education,
@@ -586,9 +608,6 @@ a:active {
 .section-portfolio h2 {
   text-align: center;
   padding-top: 20px;
-}
-
-.add-ed-container {
 }
 
 .web-card {
@@ -767,7 +786,7 @@ footer p {
   }
 
   .long-copy span {
-    color: #008888;
+    color: #006366;
   }
 
   .box p {
@@ -813,9 +832,6 @@ footer p {
 
   .tagline p span {
     color: #3ecccc;
-  }
-
-  .tagline {
   }
 
   #top-nav {
@@ -895,10 +911,6 @@ footer p {
   /*---------------------------*/
 
   .section-splash img {
-    /* padding-left: 200px; */
-  }
-
-  .section-splash img {
     margin-top: 5%;
   }
 
@@ -929,12 +941,6 @@ footer p {
   /*---------------------------*/
   /*EDUCATION*/
   /*---------------------------*/
-
-  .add-ed-container {
-  }
-
-  .additional-education {
-  }
 
   /*---------------------------*/
   /*FORM*/
