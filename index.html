@@ -47,9 +47,9 @@
 			<side-nav>
 				<ul class="side-nav">
 						<li><a href="#a-about" onclick="toggleMenu()"><i class="icon-small ion-ios-rocket"></i>About Me</a></li>
-						<li><a href="#a-portfolio" onclick="toggleMenu()"><i class="icon-small ion-ios-photos"></i>Portfolio</a></a></li>
-						<li><a href="#a-skills" onclick="toggleMenu()"><i class="icon-small ion-ios-construct"></i>Skills</a></a></li>
 						<li><a href="#a-experience" onclick="toggleMenu()"><i class="icon-small ion-ios-briefcase"></i>Experience</a></a></li>
+						<li><a href="#a-skills" onclick="toggleMenu()"><i class="icon-small ion-ios-construct"></i>Skills</a></a></li>
+						<li><a href="#a-portfolio" onclick="toggleMenu()"><i class="icon-small ion-ios-photos"></i>Portfolio</a></a></li>
 						<li><a href="#a-education" onclick="toggleMenu()"><i class="icon-small ion-ios-school"></i>Education</a></a></li>	
 						<li><a href="#a-contact" onclick="toggleMenu()"><i class="icon-small ion-ios-mail"></i>Contact Me</a></a></li>
 				</ul>			
@@ -82,40 +82,54 @@
 				</p>
 			</div>		
 		</section>
-	
-		<section class="section-portfolio">
-			<div>
-				<a name="a-portfolio"><h1>Portfolio</h1></a> 
-			</div>
 
-				<div class="project">
-					<h2>Alibay Marketplace</h2>
-					<div>
-						<div>
-							<p>A prototype of a full-stack book marketplace </p>
-							<p></i><a href="http://heathermartin.ca/alibay.html" target="_blank">Watch the Alibay Demo Video</a></p>
+		<section class="section-experience">
+				<div class="center">
+					<a name="a-experience"><h1>Experience</h1></a>
+				</div>
+							
+				<div>
+					<div class="experience center">	
+					<h2>Web Development</h2>
+						
+						<div class="web-card">
+							<div>
+								<p><span>Front-End Web Development Intern at Centiva</span></p>
+								<p><span>(November 2019 to present)</span></p>
+								<p>As an intern at Centiva, I'm learning how to apply best practices to my coding and workflow while expanding my programming knowledge base. 
+									<ul>
+										<li>write unit and end-to-end tests, using Chai and Cypress, to ensure components and web apps behave as expected
+										<li>built a design-system component matching design specifications with SCSS, ES6 JavaScript, and Vue								
+									</ul>
+							</div>
+							<div class="web-card-image">
+								<img class="experience-logo" src="./resources/img/Centiva96.png" alt="Centiva logo">
+							</div>
 						</div>
-						<div>
-							<img src="./resources/img/alibay.jpg" alt="Alibay Marketplace screen capture">
-						</div>
+								
+							<div class="center text-center"><img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="Sass/SCSS logo" src="./resources/img/Sass96.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png"><img class="small-logo" alt="Vue logo" src="./resources/img/Vue96.png"><img class="small-logo" alt="Chai logo" src="./resources/img/chai96.png"><img class="small-logo" alt="Cypress logo" src="./resources/img/cypress96.png"></div>					
 					</div>
-					<img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="CSS 3 logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png"><img class="small-logo" alt="React logo" src="./resources/img/react.png"><img class="small-logo" alt="Redux logo" src="./resources/img/redux96.png"><img alt="Combined Express and Node.js logo" class="small-logo" src="./resources/img/express-nodejs.jpg">
-				</div>	
+				</div>
 
-				<div class="project">
-					<h2>Adventure Game</h2>
-					<div>
-						<div>
-							<p>A desktop browser adventure game</p>
-							<p></i><a href="http://heathermartin.ca/adventure/index.html" target="_blank">Play the Game</a></p>
-						</div>	
-						<div>
-						<img src="./resources/img/adventuregame.jpg" alt="Adventure Game screen capture">
-						</div>	
+				<div>
+					<div class="experience additional-experience center">					
+					<h2>Freelance Editorial Services</h2>
+					<p id="freelance" onclick="freelance()"><button class="btn-more">Tell me more.</button></p>									
 					</div>
-					<img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="CSS 3 logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png">
-				</div>		
+				</div>
+
+				<div>
+					<div class="experience additional-experience center">					
+					<h2>In-house Publishing</h2>
+					<p id="inHouse" onclick="inHouse()"><button class="btn-more">Tell me more.</button></p>
+					</div>
+				</div>
+
+				<p class="dark-section-text">Learn more about Heather's work history on her <a href="https://www.linkedin.com/in/martinheather/" id="dark-section-a" target="_blank">LinkedIn profile</a>.</p>
 		</section>
+
+	
+		
 
 		<section class="section-skills">
 			<div>
@@ -164,51 +178,41 @@
 			
 		</section>
 
-		<section class="section-experience">
-				<div class="center">
-					<a name="a-experience"><h1>Experience</h1></a>
-				</div>
-							
+		<section class="section-portfolio">
 				<div>
-					<div class="experience center">	
-					<h2>Web Development</h2>
-						
-						<div class="web-card">
+					<a name="a-portfolio"><h1>Portfolio</h1></a> 
+				</div>
+	
+					<div class="project">
+						<h2>Alibay Marketplace</h2>
+						<div>
 							<div>
-								<p><span>Front-End Web Development Intern at Centiva</span></p>
-								<p><span>(November 2019 to present)</span></p>
-								<p>As an intern at Centiva, I'm learning how to apply best practices to my coding and workflow while expanding my programming knowledge base. 
-									<ul>
-										<li>write unit and end-to-end tests, using Chai and Cypress, to ensure components and web apps behave as expected
-										<li>built a design-system component matching design specifications with SCSS, ES6 JavaScript, and Vue								
-									</ul>
+								<p>A prototype of a full-stack book marketplace </p>
+								<p></i><a href="http://heathermartin.ca/alibay.html" target="_blank">Watch the Alibay Demo Video</a></p>
 							</div>
-							<div class="web-card-image">
-								<img class="experience-logo" src="./resources/img/Centiva96.png" alt="Centiva logo">
+							<div>
+								<img src="./resources/img/alibay.jpg" alt="Alibay Marketplace screen capture">
 							</div>
 						</div>
-								
-							<div class="center text-center"><img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="Sass/SCSS logo" src="./resources/img/Sass96.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png"><img class="small-logo" alt="Vue logo" src="./resources/img/Vue96.png"><img class="small-logo" alt="Chai logo" src="./resources/img/chai96.png"><img class="small-logo" alt="Cypress logo" src="./resources/img/cypress96.png"></div>					
-					</div>
-				</div>
+						<img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="CSS 3 logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png"><img class="small-logo" alt="React logo" src="./resources/img/react.png"><img class="small-logo" alt="Redux logo" src="./resources/img/redux96.png"><img alt="Combined Express and Node.js logo" class="small-logo" src="./resources/img/express-nodejs.jpg">
+					</div>	
+	
+					<div class="project">
+						<h2>Adventure Game</h2>
+						<div>
+							<div>
+								<p>A desktop browser adventure game</p>
+								<p></i><a href="http://heathermartin.ca/adventure/index.html" target="_blank">Play the Game</a></p>
+							</div>	
+							<div>
+							<img src="./resources/img/adventuregame.jpg" alt="Adventure Game screen capture">
+							</div>	
+						</div>
+						<img class="small-logo" alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png"><img class="small-logo" alt="CSS 3 logo" src="https://img.icons8.com/color/96/000000/css3.png"><img class="small-logo" alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png">
+					</div>		
+			</section>
 
-				<div>
-					<div class="experience additional-experience center">					
-					<h2>Freelance Editorial Services</h2>
-					<p id="freelance" onclick="freelance()"><button class="btn-more">Tell me more.</button></p>									
-					</div>
-				</div>
-
-				<div>
-					<div class="experience additional-experience center">					
-					<h2>In-house Publishing</h2>
-					<p id="inHouse" onclick="inHouse()"><button class="btn-more">Tell me more.</button></p>
-					</div>
-				</div>
-
-				<p class="dark-section-text">Learn more about Heather's work history on her <a href="https://www.linkedin.com/in/martinheather/" id="dark-section-a" target="_blank">LinkedIn profile</a>.</p>
-		</section>
-
+		
 		<section class="section-education">
 			<div class="center">
 				<a name="a-education"><h1>Education</h1></a>
