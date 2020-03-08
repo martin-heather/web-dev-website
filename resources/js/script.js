@@ -22,12 +22,12 @@ function toggleMenu() {
 
 function freelance() {
   document.getElementById('freelance').innerHTML =
-    'I’ve copyedited hundreds of books as well as countless ads and marketing documents. I\'ve also proofread books and scholarly articles and provided other editorial services like fact-checking and multimedia quality control. I meet deadlines and client expectations without fail.<center><p><img src="./resources/img/modus.png" alt="Groupe Modus logo"><img src="./resources/img/harpercollins.png" alt="HarperCollins logo"><img src="./resources/img/harlequin.jpg" alt="Harlequin logo"><img src="./resources/img/nelson.png" alt="Nelson logo"></p></center>';
+    '<p>I’ve copyedited hundreds of books as well as countless ads and marketing documents. I\'ve also proofread books and scholarly articles and provided other editorial services like fact-checking and multimedia quality control. I meet deadlines and client expectations without fail.</p><br><center><img class="small-logo" src="./resources/img/modus.png" alt="Groupe Modus logo"><img class="small-logo" src="./resources/img/harpercollins.png" alt="HarperCollins logo"><img class="small-logo" src="./resources/img/harlequin.jpg" alt="Harlequin logo"><img class="small-logo" src="./resources/img/nelson.png" alt="Nelson logo"></center>';
 }
 
 function inHouse() {
   document.getElementById('inHouse').innerHTML =
-    'I\'ve worked in-house at two of Canada’s largest publishers. At Nelson Education, I helped create a wide variety of print and digital educational resources, and at Harlequin Books, I proofread and copyedited trade fiction and nonfiction books.<center><p></p><img src="./resources/img/nelson.png" alt="Nelson logo"><img src="./resources/img/harlequin.jpg" alt="Harlequin logo"></p></center>';
+    '<p>I\'ve worked in-house at two of Canada’s largest publishers. At Nelson Education, I helped create a wide variety of print and digital educational resources, and at Harlequin Books, I proofread and copyedited trade fiction and nonfiction books.</p><center><br><img class="small-logo" src="./resources/img/nelson.png" alt="Nelson logo"><img class="small-logo" src="./resources/img/harlequin.jpg" alt="Harlequin logo"></center>';
 }
 
 function concordia() {
