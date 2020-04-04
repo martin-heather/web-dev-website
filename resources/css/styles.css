@@ -110,6 +110,10 @@ body {
 	text-align: center;
 }
 
+.align-right {
+	float: right;
+}
+
 section {
 	padding: 30px 0;
 	position: relative;
@@ -161,8 +165,8 @@ h3 {
 
 .long-copy {
 	line-height: 145%;
-	width: 70%;
-	margin-left: 15%;
+	/* width: 70%;
+	margin-left: 15%; */
 }
 
 .long-copy span {
@@ -183,12 +187,16 @@ ul {
 }
 
 .dark-section-text {
-	font-size: 65%;
 	text-align: center;
 }
 
 #dark-section-a {
 	color: #00c5c5;
+}
+
+.section-footnote {
+	max-width: 90%;
+	text-align: center;
 }
 
 /*--icons-------------*/
@@ -212,7 +220,8 @@ ul {
 	font-size: 350%;
 	display: block;
 	color: #008888;
-	margin-bottom: 10px;
+	margin-bottom: 0;
+	line-height: 100%;
 }
 
 .icon-small {
@@ -450,6 +459,10 @@ a:active {
 	background-color: #d1d1d1;
 }
 
+.about {
+	max-width: 90%;
+}
+
 .section-philosophy .long-copy {
 	margin-bottom: 30px;
 }
@@ -631,8 +644,9 @@ a:active {
 	justify-content: space-between;
 }
 
-.web-card-img {
-	float: right;
+.education-logo {
+	height: 40px;
+	margin:0 10px 0 0;
 }
 
 .education,
@@ -647,17 +661,17 @@ a:active {
 	box-shadow: 10px 10px 8px #888888;
 }
 
-.education h2,
+/* .education h2,
 .additional-education h2 {
 	text-align: center;
-}
+} */
 
-.additional-education img,
+/* .additional-education img,
 .education img {
 	height: 80px;
 	float: right;
 	padding: 0 0 10px 10px;
-}
+} */
 
 .education span,
 .additional-education span {
@@ -668,8 +682,7 @@ a:active {
 .education ul,
 .additional-education ul {
 	color: #1e2125;
-	padding-left: 40px;
-	float: left;
+	padding-left: 30px;
 }
 
 .education {
@@ -801,8 +814,8 @@ footer p {
 
 	.long-copy {
 		line-height: 145%;
-		width: 70%;
-		margin-left: 15%;
+		width: 90%;
+		margin-left: 5%;
 	}
 
 	.long-copy span {
@@ -965,6 +978,10 @@ footer p {
 	/*PHILOSOPHY*/
 	/*---------------------------*/
 
+	.about {
+		max-width: 800px;
+	}
+
 	/*---------------------------*/
 	/*PORTFOLIO*/
 	/*---------------------------*/
@@ -972,6 +989,10 @@ footer p {
 	/*---------------------------*/
 	/*EXPERIENCE*/
 	/*---------------------------*/
+
+	.experience {
+		max-width: 800px; 
+	}
 
 	/*---------------------------*/
 	/*EDUCATION*/

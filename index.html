@@ -85,14 +85,16 @@
 				<a name="a-about">
 					<h1>About Me</h1>
 				</a>
-				<p class="long-copy">
-					My knowledge of modern web development includes HTML, CSS, SCSS, ES6 JavaScript, the Vue, React and
-					Redux front-end libraries as well as Node.js and Express on the back end. Most recently I've added
-					unit and end-to-end testing to my skillset with the Chai assertion library and
-					Cypress.<br /><br />My first career was as an editor and proofreader of English, so my love of codes
-					and syntax runs deep, and I bring the same eye for detail and respect for deadlines I developed in
-					the publishing sphere to the world of coding.
-				</p>
+				<div class="about center">
+					<p class="long-copy">
+						My knowledge of modern web development includes HTML, CSS, SCSS, ES6 JavaScript, the Vue, React and
+						Redux front-end libraries as well as Node.js and Express on the back end. Most recently I've added
+						unit and end-to-end testing to my skillset with the Chai assertion library and
+						Cypress.<br /><br />My first career was as an editor and proofreader of English, so my love of codes
+						and syntax runs deep, and I bring the same eye for detail and respect for deadlines I developed in
+						the publishing sphere to the world of coding.
+					</p>
+				</div>
 			</div>
 		</section>
 
@@ -179,7 +181,7 @@
 							<li>assisted new coders as they learned HTML and CSS at a Ladies Learning Code workshop</li>
 						</ul>
 					<br>		
-			</div>
+				</div>
 
 					</div>
 				</div>
@@ -189,13 +191,12 @@
 				</div>
 			</div>
 
-			<p class="dark-section-text">Learn more about Heather's work history on her <a
+			<div class="section-footnote center">
+				<p class="dark-section-text">Learn more about Heather's work history on her <a
 					href="https://www.linkedin.com/in/martinheather/" id="dark-section-a" target="_blank">LinkedIn
 					profile</a>.</p>
+			</div>
 		</section>
-
-
-
 
 		<section class="section-skills">
 			<div>
@@ -221,7 +222,7 @@
 					<figcaption>JavaScript</figcaption>
 				</figure>
 				<figure>
-					<img alt="Vue logo" src="./resources/img/Vue96.png">
+					<img alt="Vue logo" src="./resources/img/vue96.png">
 					<figcaption>Vue</figcaption>
 				</figure>
 				<figure>
@@ -237,11 +238,11 @@
 					<figcaption>Express and Node.js</figcaption>
 				</figure>
 				<figure>
-					<img alt="Chai.js logo" src="./resources/img/chai96.PNG">
+					<img alt="Chai.js logo" src="./resources/img/chai96.png">
 					<figcaption>Chai</figcaption>
 				</figure>
 				<figure>
-					<img alt="Cypress.io logo" src="./resources/img/cypress96.PNG">
+					<img alt="Cypress.io logo" src="./resources/img/cypress96.png">
 					<figcaption>Cypress</figcaption>
 				</figure>
 			</div>
@@ -307,33 +308,38 @@
 			<div class="education-webdev">
 				<div class="education center">
 					<div>
-						<div>
-							<h2>Diploma in Front-End Web Development</h2>
-						</div>
 						<div class="web-card">
 							<div>
-								<p><span>Concordia University (2019)</span></p>
+								<div class="web-card-header">
+									<img class="education-logo" src="./resources/img/concordia.png" alt="Concordia University logo">
+									<div>
+										<h2>Diploma, Front-End Web Development</h2>
+									</div>
+								</div>
+								<p><span>Concordia University</span></p>
 								<ul>
 									<li>HTML, CSS and responsive website design</li>
 									<li>Debugging, Testing & JavaScript Fundamentals</li>
 									<li>Object Oriented Programming</li>
 									<li>React and Redux</li>
 									<li>Node.js and Express Framework</li>
-								</ul>
-							</div>
-							<div class="web-card-image">
-								<img src="./resources/img/concordia.png" alt="Concordia University logo">
+								</ul>						
 							</div>
 						</div>
 					</div>
 				</div>
 			
-
-			
 				<div class="education center">
 					<div>
-						<div>
-							<h2>Web Development Courses</h2>
+						<div class="web-card-header">
+							<div>
+								<i class="icon-big ion-ios-school"></i>
+							</div>
+							&nbsp;
+							&nbsp;						
+							<div>
+								<h2>Web Development Courses</h2>
+							</div>
 						</div>
 						<div class="web-card">
 							<div>
@@ -350,41 +356,84 @@
 				</div>
 			</div>
 
-			<div class="add-ed-container">
-
-				<div class="education additional-education center">
-					<h2>Ongoing French-Language Studies</h2>
-					<p id="concordia" onclick="concordia()">
-						<button class="btn-more">Tell me more.</button></p>
+			<div class="education-webdev">
+				<div class="education center">
+					<div>
+						<div class="web-card-header">
+							<img class="education-logo" src="./resources/img/concordia.png" alt="Concordia University logo">
+							<div>
+								<h2>Ongoing French-Language Studies</h2>
+							</div>
+						</div>
+						<div class="web-card">
+							<div>
+								<p id="concordia" onclick="concordia()">
+									<button class="btn-more">Tell me more.</button></p>
+							</div>
+						</div>
+					</div>
 				</div>
-
-
-
-				<div class="education additional-education center">
-					<h2>Certificate in Publishing</h2>
-					<p id="ryerson" onclick="ryerson()">
-						<button class="btn-more">Tell me more.</button></p>
+	
+				<div class="education center">
+					<div>
+						<div class="web-card-header">
+							<img class="education-logo" src="./resources/img/ryerson.png" alt="Ryerson University logo">
+							<div>
+								<h2>Certificate in Publishing</h2>
+							</div>
+						</div>
+						<div class="web-card">
+							<div class="align-right">
+								<p id="ryerson" onclick="ryerson()">
+									<button class="btn-more">Tell me more.</button></p>
+							</div>
+						</div>
+					</div>
 				</div>
-
-
-
-				<div class="education additional-education center">
-					<h2>MA, English Language & Literature</h2>
-					<p id="uvic" onclick="uvic()">
-						<button class="btn-more">Tell me more.</button></p>
-				</div>
-
-				<div class="education additional-education center">
-					<h2>BA, Honours English</h2>
-					<p id="guelph" onclick="guelph()">
-						<button class="btn-more">Tell me more.</button></p>
-				</div>
-
 			</div>
 
-			<p class="dark-section-text">You can find out more about Heather's education at her <a
-				href="https://www.linkedin.com/in/martinheather/" id="dark-section-a" target="_blank">LinkedIn
-				profile</a>.</p>
+			<div class="education-webdev">
+				<div class="education center">
+					<div>
+						<div class="web-card-header">
+							<img class="education-logo" src="./resources/img/uvic.png" alt="University of Victoria log">
+							<div>
+								<h2>MA, English Language & Literature</h2>
+							</div>
+						</div>
+						<div class="web-card">
+							<div class="align-right">
+								<p id="uvic" onclick="uvic()">
+									<button class="btn-more">Tell me more.</button></p>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="education center">
+					<div>
+						<div class="web-card-header">
+							<img class="education-logo" src="./resources/img/guelph.png" alt="University of Guelph logo">
+							<div>
+								<h2>BA, Honours English</h2>
+							</div>
+						</div>
+						<div class="web-card">
+							<div class="align-right">
+								<p id="guelph" onclick="guelph()">
+									<button class="btn-more">Tell me more.</button></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-footnote center">
+				<p class="dark-section-text">You can find out more about Heather's education at her <a
+					href="https://www.linkedin.com/in/martinheather/" id="dark-section-a" target="_blank">LinkedIn
+					profile</a>.</p>
+			</div>
+
 		</section>
 
 		<section class="section-form">

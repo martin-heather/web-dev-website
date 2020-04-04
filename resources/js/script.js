@@ -32,20 +32,20 @@ function inHouse() {
 
 function concordia() {
   document.getElementById('concordia').innerHTML =
-    '<img src="./resources/img/concordia.png" alt="Concordia University logo"><p><span>Concordia University</span></p>Since 2016, I have been studying French grammar, literature and composition part-time in the French Studies department and have a cumulative GPA of 4.0.';
+    '<p><span>Concordia University</span></p>Since 2016, I have been studying French grammar, literature and composition part-time in the French Studies department and have a cumulative GPA of 4.0.';
 }
 
 function ryerson() {
   document.getElementById('ryerson').innerHTML =
-    '<img src="./resources/img/ryerson.png" alt="Ryerson University logo"><p><span>Ryerson University</span></p>At Ryerson, I studied editing, digital publishing and book design among other topics. I was twice nominated for the Rosemary Shipton Award for Excellence in Book Editing.';
+    '<p><span>Ryerson University</span></p>At Ryerson, I studied editing, digital publishing and book design among other topics. I was twice nominated for the Rosemary Shipton Award for Excellence in Book Editing.';
 }
 
 function uvic() {
   document.getElementById('uvic').innerHTML =
-    '<img src="./resources/img/uvic.png" alt="University of Victoria log"><p><span>University of Victoria</span></p>While attending UVic, I also worked for International Student Services, where I taught ESL students in the university\'s Faculty of Business.';
+    '<p><span>University of Victoria</span></p>While attending UVic, I also worked for International Student Services, where I taught ESL students in the university\'s Faculty of Business.';
 }
 
 function guelph() {
   document.getElementById('guelph').innerHTML =
-    '<img src="./resources/img/guelph.png" alt="University of Guelph logo"><p><span>University of Guelph</span></p>While at UofG, I taught English usage and style at the university\'s Learning and Writing Centre as a student writing consultant.';
+    '<p><span>University of Guelph</span></p>While at UofG, I taught English usage and style at the university\'s Learning and Writing Centre as a student writing consultant.';
 }
