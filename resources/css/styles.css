@@ -156,7 +156,7 @@ h2 {
 
 h3 {
 	font-weight: 400;
-	font-size: 130%;
+	font-size: 105%;
 	margin-bottom: 15px;
 	color: #006366;
 }
@@ -187,6 +187,7 @@ ul {
 }
 
 .dark-section-text {
+	color: #fff;
 	text-align: center;
 }
 
@@ -455,15 +456,15 @@ a:active {
 /*PHILOSOPHY*/
 /*---------------------------*/
 
-.section-philosophy {
-	background-color: #d1d1d1;
+.section-about {
+	background-color: #fff;
 }
 
 .about {
 	max-width: 90%;
 }
 
-.section-philosophy .long-copy {
+.section-about .long-copy {
 	margin-bottom: 30px;
 }
 
@@ -533,7 +534,6 @@ a:active {
 
 .section-skills {
 	text-align: center;
-	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -545,6 +545,10 @@ a:active {
 .section-skills img {
 	height: 50px;
 	width: auto;
+}
+
+.skills-figures {
+	max-width: 90%;
 }
 
 /*---------------------------*/
@@ -573,6 +577,7 @@ a:active {
 .experience {
 	margin-bottom: 35px;
 	max-width: 90%;
+	box-shadow: 10px 10px 8px #0a0a0a;
 }
 
 .education,
@@ -628,9 +633,12 @@ a:active {
 /*---------------------------*/
 
 .section-education {
-	background-color: #d1d1d1;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(img/random_grey_variations.png);
 	background-repeat: repeat;
+	background-position: center;
 	color: #1e2125;
+	background-attachment: fixed;
 }
 
 .section-portfolio h2 {
@@ -658,20 +666,18 @@ a:active {
 	background-color: #fff;
 	border-radius: 5px;
 	padding: 25px 25px;
-	box-shadow: 10px 10px 8px #888888;
+	box-shadow: 10px 10px 8px #0a0a0a;
+	min-width: 260px;
 }
 
-/* .education h2,
-.additional-education h2 {
-	text-align: center;
-} */
+.section-education h1 {
+	color: #fff;
+}
 
-/* .additional-education img,
-.education img {
-	height: 80px;
-	float: right;
-	padding: 0 0 10px 10px;
-} */
+.education h2,
+.additional-education h2 {
+	margin-bottom: 0;
+}
 
 .education span,
 .additional-education span {
@@ -686,7 +692,6 @@ a:active {
 }
 
 .education {
-	
 	margin-bottom: 35px;
 	max-width: 90%;
 }
@@ -696,12 +701,8 @@ a:active {
 /*---------------------------*/
 
 .section-form {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url(img/random_grey_variations.png);
-	background-repeat: repeat;
-	background-position: center;
-	color: #fff;
-	background-attachment: fixed;
+	background-color: #fff;
+	color: #555;
 }
 
 /*---------------------------*/
@@ -832,7 +833,7 @@ footer p {
 	}
 
 	.dark-section-text {
-		font-size: 70%;
+		font-size: 90%;
 	}
 
 	/*--icons-------------*/
