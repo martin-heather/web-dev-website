@@ -175,14 +175,14 @@ h3 {
 
 .box p {
 	font-weight: 400;
-	font-size: 80%;
+	font-size: 90%;
 	line-height: 145%;
 }
 
 p,
 ul {
 	font-weight: 400;
-	font-size: 80%;
+	font-size: 90%;
 	line-height: 145%;
 }
 
@@ -413,7 +413,7 @@ a:active {
 .top-subtitle {
 	color: #00c5c5;
 	text-align: center;
-	font-size: 80%;
+	font-size: 90%;
 	word-spacing: 4px;
 	letter-spacing: 1.5px;
 }
@@ -502,7 +502,7 @@ a:active {
 }
 
 .project p {
-	font-size: 80%;
+	font-size: 90%;
 	padding: 10px;
 	color: #1e2125;
 	text-align: center;
