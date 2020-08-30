@@ -350,7 +350,7 @@ a:active {
 	font-size: 113%;
 }
 
-.tagline p {
+.tagline-para {
 	color: #fff;
 	padding-top: 120px;
 	margin-bottom: 20px;
@@ -786,8 +786,12 @@ footer p {
 	word-spacing: 2px;
 	text-align: center;
 	margin-bottom: 15px;
-	padding-top: 45px;
+	padding-top: 125px;
 	letter-spacing: 1px;
+}
+
+.not-found-text {
+	padding-top: 45px;
 }
 
 .not-found-a,
@@ -876,7 +880,7 @@ footer p {
 		margin-top: 15%;
 	}
 
-	.tagline p {
+	.tagline-para {
 		padding-top: 60px;
 	}
 
@@ -954,6 +958,10 @@ footer p {
 	/*---------------------------*/
 	/*FOOTER*/
 	/*---------------------------*/
+
+	.not-found-title {
+		padding-top: 45px;
+	}
 }
 
 @media (min-width: 1200px) {
