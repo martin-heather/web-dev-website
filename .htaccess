@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://heathermartin.ca [L,R=301]
+
+ErrorDocument 404 /page-not-found.html

@@ -779,6 +779,22 @@ footer p {
 	width: 200px;
 }
 
+.not-found-title {
+	color: #ffffff;
+	font-size: 180%;
+	font-weight: 600;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 15px;
+	padding-top: 45px;
+	letter-spacing: 1px;
+}
+
+.not-found-a,
+.not-found-a:visited {
+	color: #36b4b2;
+}
+
 /*********************************************
 *****MEDIA QUERIES****************************
 *********************************************/

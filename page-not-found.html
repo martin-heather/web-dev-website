@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="apple-touch-icon" sizes="57x57" href="./resources/ico//apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./resources/ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./resources/ico//apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./resources/ico//apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./resources/ico//apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./resources/ico//apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./resources/ico//apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./resources/ico//apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./resources/ico//apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./resources/ico//android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./resources/ico//favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./resources/ico//favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./resources/ico//favicon-16x16.png">
+	<link rel="manifest" href="./resources/ico//manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" type="text/css" href="./resources/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Krub:300,400,400i,600" rel="stylesheet">
+	<link href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css" rel="stylesheet">
+	<script src="./resources/js/script.js"></script>
+	<meta charset="UTF-8">
+	<title>Heather Martin</title>
+</head>
+
+<body>
+
+	<a href="#main-content" class="skip-link">Skip to main content.</a>
+
+	<nav id="top-nav">
+		<div class="menu-btn" aria-label="menu" onclick="toggleMenu()"><i alt="hamburger menu icon"
+				class="icon-top-left ion-ios-menu"></i></div>
+		<div class="titles">
+			<div class="top-title">Heather Martin</div>
+			<div class="top-subtitle">Web Developer</div>
+		</div>
+		<div><i class="icon-top-right ion-ios-menu"></i></div>
+	</nav>
+
+	<nav class="toc" id="toc">
+		<a href="https://heathermartin.ca/index.html#top"><img src="./resources/img/logo.png" onclick="toggleMenu()" alt="HM logo" class="logo"></a>
+		<side-nav>
+			<ul class="side-nav">
+				<li><a href="https://heathermartin.ca/index.html#a-about" onclick="toggleMenu()"><i class="icon-small ion-ios-rocket"></i>About Me</a></li>
+				<li><a href="https://heathermartin.ca/index.html#a-experience" onclick="toggleMenu()"><i class="icon-small ion-ios-briefcase"></i>Experience</a></li>
+				<li><a href="https://heathermartin.ca/index.html#a-skills" onclick="toggleMenu()"><i class="icon-small ion-ios-construct"></i>Skills</a></li>
+				<li><a href="https://heathermartin.ca/index.html#a-education" onclick="toggleMenu()"><i class="icon-small ion-ios-school"></i>Education</a></li>
+				<li><a href="https://heathermartin.ca/index.html#a-contact" onclick="toggleMenu()"><i class="icon-small ion-ios-mail"></i>Contact Me</a></li>
+			</ul>
+		</side-nav>
+		<footer class="footer-nav footer-toc">
+			<p> &copy 2020 by Heather Martin.<br />All rights reserved.</p>
+		</footer>
+	</nav>
+
+	<div 
+		class="main" 
+		id="main-content" 
+		tabindex="-1"
+	>
+
+		<section class="section-splash">
+			<div class="center">
+				
+				<div class="tagline">
+					<div class="not-found-text-block">
+						<h2 class="not-found-title">404: Page Not Found</h2>
+					<p>The page you are looking for has moved or doesn't exist.<br>
+						I recommend returning to the <a class="not-found-a" href="index.html">home page</a>.</p>
+					</div>
+				</div>
+			</div>
+			<img src="./resources/img/MTL.png" alt="Montreal Skyline">
+		</section>
+
+		<section class="section-form">
+			<div>
+				<a name="a-contact">
+					<h1>Contact Me</h1>
+				</a>
+				<div class="center">
+					<ul class="social-links">
+						<li><a 
+							aria-label="Visit Heather's LinkedIn page."
+							href="https://www.linkedin.com/in/martinheather/" 
+							target="_blank"
+							>
+								<i 
+									alt="LinkedIn icon"
+									class="icon-big ion-logo-linkedin">
+								</i>
+							</a>
+						</li>
+						<li>
+							<a 
+								aria-label="Visit Heather's GutHub profile." 
+								href="https://github.com/martin-heather"
+								target="_blank"
+								>
+									<i alt="GitHub icon" 
+									class="icon-big ion-logo-github">
+								</i>
+							</a>
+						</li>
+						<li>
+							<a 
+								aria-label="Send Heather an email." 
+								href="mailto:mail@heathermartin.ca" 
+								target="_top"
+							>
+								<i
+									alt="Email icon" 
+									class="icon-big ion-ios-send">
+								</i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
