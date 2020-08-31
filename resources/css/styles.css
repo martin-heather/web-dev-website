@@ -876,6 +876,10 @@ footer p {
 	/*HEADER*/
 	/*---------------------------*/
 
+	.section-splash {
+		height: calc(100vh - 150px);
+	}
+
 	.section-splash img {
 		margin-top: 15%;
 	}
