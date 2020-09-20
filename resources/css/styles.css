@@ -803,7 +803,7 @@ footer p {
 *****MEDIA QUERIES****************************
 *********************************************/
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
 	.toc {
 		display: block;
 	}
@@ -969,6 +969,10 @@ footer p {
 }
 
 @media (min-width: 1200px) {
+
+	.toc {
+		display: block;
+	}
 	/*---------------------------*/
 	/* REUSABLE COMPONENTS */
 	/*---------------------------*/
